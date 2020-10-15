@@ -2,6 +2,7 @@
   "headers":{
   "/*":{
   "X-Author": "Маляр, Дарья Алексеевна"
+  "Access-Control-Allow-Origin":"*"
   }
   }
 
