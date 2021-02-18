@@ -1,7 +1,7 @@
 {
   "headers":{
   "/*":{
-  "X-Author": 'hitorrin',
+  "X-Author": "hitorrin",
   "Access-Control-Allow-Origin":"*"
   }
   }
