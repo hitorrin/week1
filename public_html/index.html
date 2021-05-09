@@ -1,1 +1,23 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='UTF-8'/>
+  </head>
+<body>
+  <script>
+const s =  require('http').Server((req,res) =>{
+res.setHeader('Content-Type','text/plain; charset=UTF-8');
+res.setHeader('Access-Control-Allow-Origin','*');
+if (req.url =='/sample/'){
+  res.write('function task(x){ return (x *= this.x*this.x);}');
+}
+if (req.url=='/login/'){
+  res.write('hitorrin');
+}
+res.end();
+})
+s.listen(4321);
+  </script>
+</body>
+</html>
